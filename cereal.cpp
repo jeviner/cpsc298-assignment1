@@ -21,11 +21,13 @@ int main(){
   cin >> weightOz;
   cout << endl;
 
+
+  //A metric ton is 35,273.92 ounces
   weightTons = weightOz/35273.92;
 
   cout << "That is " << weightTons <<" metric tons of cereal." << endl;
 
-  numBoxes = 1/weightTons;
+  numBoxes = 1/weightTons;//will yeild partial boxes 
 
   cout << numBoxes << " boxes are needed to yeild one metric ton of cereal." << endl;
 
